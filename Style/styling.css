@@ -27,7 +27,7 @@
     font-family: "Comic Relief", system-ui;
 }
 #View1{
-    height: 260vh;
+    height: 178vh;
     background: url(../Photos/bg-img2-edited.png) no-repeat;
     background-size: cover;
 }
@@ -65,7 +65,7 @@
 }
 /* !content-layout ~~~~~~~~~~~~~~~~~~~ */
 #content-layout{
-    height: 80%;
+    height: 88%;
     border-radius: 15px;
     /* background-color: rgba(245, 245, 245, 0.422); */
     display: flex;
