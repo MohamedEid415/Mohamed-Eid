@@ -20,18 +20,20 @@
     font-variation-settings: "wdth" 100;
 }
 
-*{
+* {
     padding: 0% !important;
     margin: 0% !important;
     box-sizing: border-box !important;
     font-family: "Comic Relief", system-ui;
 }
-#View1{
+
+#View1 {
     height: 178vh;
     background: url(../Photos/bg-img2-edited.png) no-repeat;
     background-size: cover;
 }
-#main-overlay{
+
+#main-overlay {
     width: 100%;
     height: 100%;
     display: flex;
@@ -40,10 +42,12 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.289);
 }
-.br{
+
+.br {
     border: 2px solid red;
 }
-#common-content-lay{
+
+#common-content-lay {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -53,7 +57,8 @@
     padding-top: 15px !important;
     background-color: rgba(245, 245, 245, 0.422);
 }
-#my-pic-in-large-lay{
+
+#my-pic-in-large-lay {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -63,8 +68,9 @@
     padding-top: 25px !important;
     padding-left: 25px !important;
 }
+
 /* !content-layout ~~~~~~~~~~~~~~~~~~~ */
-#content-layout{
+#content-layout {
     height: 88%;
     border-radius: 15px;
     /* background-color: rgba(245, 245, 245, 0.422); */
@@ -73,43 +79,48 @@
     justify-content: start;
     align-items: center;
 }
-#my-pic-lay{
+
+#my-pic-lay {
     width: 230px;
     height: 230px;
     border-radius: 50%;
     transform: translateY(-75px);
     border: 3px solid black;
 }
-#my-pic-lay img{
+
+#my-pic-lay img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 
 }
-#my-name-lay{
+
+#my-name-lay {
     width: 230px;
     height: 50px;
 }
 
-#my-name-lay span{
+#my-name-lay span {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: aliceblue;
 }
-#seperator{
+
+#seperator {
     width: 80%;
     height: 2px;
     background-color: #020524;
     /* transform: translateY(5px); */
 }
-#about-heading-lay{
+
+#about-heading-lay {
     height: 100px;
     width: 230px;
     display: flex;
@@ -117,7 +128,8 @@
     justify-content: start;
     align-items: center;
 }
-.about-unit{
+
+.about-unit {
     width: 100%;
     height: 50%;
     display: flex;
@@ -126,53 +138,63 @@
     align-items: center;
     gap: 5px;
 }
-.about-unit i{
+
+.about-unit i {
     font-size: 28px;
     color: #030524;
 }
-.about-unit h1{
+
+.about-unit h1 {
     font-size: 22px !important;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
 }
-.paragraph{
+
+.paragraph {
     width: 90%;
     height: fit-content;
 }
-#thanks-to{
+
+#thanks-to {
     width: 100%;
     text-align: center;
     color: aliceblue;
 }
-.paragraph{
+
+.paragraph {
     color: aliceblue;
 }
-#btn-lay{
+
+#btn-lay {
     width: 136px;
     height: 37px;
     border-radius: 9999px;
 }
-#btn-lay button{
+
+#btn-lay button {
     width: 100%;
     height: 100%;
     border-radius: 9999px;
     background-color: aliceblue;
     border: 2px solid gray;
 }
-#btn-lay button:hover{
+
+#btn-lay button:hover {
     background-color: rgb(168, 173, 177);
     border-color: black;
 
 }
-button a{
+
+button a {
     text-decoration: none;
     color: #030524;
     font-size: 20px;
     font-weight: bold;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#links-icon-lay{
+
+#links-icon-lay {
     width: 80%;
     height: 40px;
     display: flex;
@@ -181,7 +203,8 @@ button a{
     align-items: center;
     gap: 5px;
 }
-#links-icon-unit{
+
+#links-icon-unit {
     height: 100%;
     width: 35px;
     display: flex;
@@ -189,30 +212,35 @@ button a{
     justify-content: center;
     align-items: center;
 }
-#links-icon-unit a{
+
+#links-icon-unit a {
     text-decoration: none;
     font-size: 32px;
     color: #030524;
 }
-#links-icon-unit a:hover{
+
+#links-icon-unit a:hover {
     color: #030524a2;
 }
-#my-pic-v2-lay{
+
+#my-pic-v2-lay {
     width: 300px;
     height: 300px;
     border: 2px solid aliceblue;
     border-radius: 10px;
     /* transform: translateX(25px); */
     /* transform: translate(25px); */
-    
+
 }
-#my-pic-v2-lay img{
+
+#my-pic-v2-lay img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 
 }
-#footer-lay{
+
+#footer-lay {
     width: 100%;
     height: 40px;
     background-color: #00101B;
@@ -223,24 +251,30 @@ button a{
     color: aliceblue;
     font-size: 14px;
 }
+
 @media (min-width:992px) {
-    #View1{
+    #View1 {
         height: 125vh;
     }
-    #main-overlay{
+
+    #main-overlay {
         justify-content: flex-start;
     }
-    #content-layout{
+
+    #content-layout {
         height: 100%;
     }
-    #common-content-lay{
+
+    #common-content-lay {
         align-items: start;
         padding-left: 30px !important;
     }
-    #about-heading-lay{
+
+    #about-heading-lay {
         align-items: start;
     }
-    .about-unit{
+
+    .about-unit {
         width: fit-content;
     }
 }
